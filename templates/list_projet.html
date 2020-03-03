@@ -1,0 +1,18 @@
+<html>
+
+<head>
+
+
+</head>
+<body>
+{% for pro in p %}
+<ul>
+
+    <li><a href="" >  {{ pro.nom_du_projet}} </a></li>
+</ul>
+{% empty  %}
+    <p>Auncun projet dans la BD </p>
+
+{% endfor %}
+</body>
+</html>
